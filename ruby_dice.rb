@@ -4,7 +4,7 @@ def roll_die
 end
 
 puts "Welcome to the Dice Roller Game!"
-list = (1..12).to_a # Initialize the list of values
+list = (1..12).to_a 
 
 
 def check_game_status(list)
@@ -16,7 +16,6 @@ def check_game_status(list)
 end
 
 loop do
-  # Roll two dice
   die1 = roll_die
   die2 = roll_die
   sum = die1 + die2
